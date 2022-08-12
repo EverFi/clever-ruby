@@ -1,3 +1,8 @@
+# Warning
+
+This is a fork of the clever-ruby repo and is not maintained. The only changes here are to make this ruby 3.0 compatible.
+The rest of the readme is from the original repo.
+
 # Notice
 
 This repo is no longer maintained by Clever. We provide the Swagger definitions at https://github.com/Clever/swagger-api.
