@@ -15,20 +15,24 @@ require 'date'
 module Clever
 
   class SchoolAdminsResponse
-    attr_accessor :data
+    attr_accessor :data, :paging, :links
 
 
     # Attribute mapping from ruby-style variable name to JSON key.
     def self.attribute_map
       {
-        :'data' => :'data'
+        :'data' => :'data',
+        :'paging' => :'paging',
+        :'links' => :'links'
       }
     end
 
     # Attribute type mapping.
     def self.swagger_types
       {
-        :'data' => :'Array<SchoolAdminResponse>'
+        :'data' => :'Array<SchoolAdminResponse>',
+        :'paging'=> :'Object',
+        :'links'=> :'Object'
       }
     end
 
